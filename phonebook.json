@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ivan",
+    "surname": "Ivanov",
+    "phone": "89308003344",
+    "birthdate": null
+  },
+  {
+    "name": "Petr",
+    "surname": "Petrov",
+    "phone": "88005553535",
+    "birthdate": "12.12.2000"
+  },
+  {
+    "name": "Petr",
+    "surname": "Sidorov",
+    "phone": "89107208436",
+    "birthdate": "11.11.1999"
+  }
+]
