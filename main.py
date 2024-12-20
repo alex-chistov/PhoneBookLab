@@ -67,14 +67,14 @@ class PhoneBook:
                     data = json.load(file)
                     self.entries = [PhoneBookEntry.from_dict(entry) for entry in data]
             else:
-                # Создаем пустой файл, если он не существует
+                # Создает пустой файл, если он не существует
                 with open(self.filename, 'w', encoding='utf-8') as file:
                     json.dump([], file)
                 self.entries = []
         except json.JSONDecodeError:
             print("Предупреждение: Поврежденный формат файла")
             self.entries = []
-            # Создаем новый пустой файл
+            # Создает новый пустой файл
             with open(self.filename, 'w', encoding='utf-8') as file:
                 json.dump([], file)
 
